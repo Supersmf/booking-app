@@ -3,6 +3,7 @@ import NavigateBar from '../navigateBar';
 import SearchForm from '../searchForm';
 import FindOutMore from '../findOutMore';
 import Multicard from '../multicard';
+import AdvantagesBlock from '../advantagesBlock';
 import './content.css';
 
 const Content = () => (
@@ -13,6 +14,7 @@ const Content = () => (
       <FindOutMore />
     </div>
     <Multicard />
+    <AdvantagesBlock />
   </>
   
 );

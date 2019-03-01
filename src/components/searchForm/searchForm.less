@@ -1,3 +1,4 @@
+@import "../../../node_modules/font-awesome/css/font-awesome.min.css";
 .search-form{
     background-color: #dc4109;
     min-height: 500px;
@@ -64,7 +65,12 @@ input[type="radio"] {
 }
 .search-form_input-group-calendar-input{
     width: 70%;
-    height: 40px;  
+    height: 40px;
+    &::after{
+        font-family: FontAwesome;
+        content: "\f095";
+        color: #FFF079;
+    }
 }
 
 .search-form_input-group-count {

@@ -1,3 +1,4 @@
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
 body,
 .wrapper {
   height: 100%;
@@ -9,5 +10,4 @@ main {
   padding-bottom: 90px;
   margin: -80px auto 0 auto;
   width: 76%;
-  border: 1px dotted red;
 }

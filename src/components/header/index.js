@@ -3,16 +3,18 @@ import './header.css';
 
 const Header = () => (
     <div className="header">
-      <div className="header_content d-flex justify-content-between text-white">
+      <div className="header_content">
           <div>
-              <h1>JB FLIGHT-B</h1>
+              <h1 className="header_content_title">JB <span className="header_content_title_span-yellow">FLIGHT-B</span></h1>
           </div>
-          <div className="d-flex justify-content-between">
-              <div>
+          <div className="header_content_contactBlock">
+              <div className="header_content_contactBlock_contacts">
                   <p>TOLL NUMBER</p>
-                  <p>046.369.0239</p>
+                  <div>
+                    <p className="header_content_contactBlock_contacts_phone">046.369.0239</p>     
+                  </div>                               
               </div>
-              <div className="header_content_groupBtn">
+              <div className="header_content_contactBlock_groupBtn">
                 <ul className="header_content_groupBtn_ul">
                   <li className="header_content_groupBtn_btn"><a href="https://#">Sign in</a></li>
                   <li className="header_content_groupBtn_btn"><a href="https://#">Agent</a></li>

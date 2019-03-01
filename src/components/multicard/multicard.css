@@ -1,7 +1,8 @@
 .multicard-content {
-  height: 470px;
+  height: 530px;
   border-radius: 20px;
   margin: 15px;
+  margin-bottom: 20px;
   padding: 8px;
   background: linear-gradient(#deebf1, #fff, #fff);
 }
@@ -12,4 +13,3 @@
   display: flex;
   justify-content: space-around;
 }
-

@@ -9,8 +9,9 @@
   position: relative;
 }
 .tourCard-container_title {
+  font-size: 1.2rem;
   text-align: center;
-  padding: 10px;
+  margin: 20px;
   color: #48b6e3;
   font-weight: bold;
 }
@@ -51,6 +52,10 @@
 .tourCard-container_btnContainer_link {
   line-height: 50px;
   font-size: 1.1rem;
+  text-decoration: none;
+}
+.tourCard-container_btnContainer_link:hover {
+  color: #3d91b4;
 }
 .tourCard-container_btnContainer_link::after {
   content: 'pl';
